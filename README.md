@@ -41,10 +41,10 @@ FasTensor has just one simple paradigm: you give it a data source, an output dat
 
 We aimed to achieve the same for streaming: Drop in the STREAM keyword, append a pattern identifying your stream, and use your usual transform. 
 
-<img src="https://github.com/aditya-narayan5/GSoC24-Final_Report/blob/f486087ae3e6ef1f1077c885e9352c9440848724/images/example_code.png" width=50% height=100%>
+<img src="https://github.com/aditya-narayan5/GSoC24-Final_Report/blob/f486087ae3e6ef1f1077c885e9352c9440848724/images/example_code.png" width=75% height=100%>
 Voila! Now your previous FasTensor code supports live data streams.
 
-<img src="https://github.com/aditya-narayan5/GSoC24-Final_Report/blob/da34fab7a857b0223332d84a0aa1c8cdf0811761/images/fastensor_streaming_demo.gif" width=70% height=70%>
+<img src="https://github.com/aditya-narayan5/GSoC24-Final_Report/blob/da34fab7a857b0223332d84a0aa1c8cdf0811761/images/fastensor_streaming_demo.gif" width=75% height=75%>
 
 #### Technical tidbits:
 - Implements a manager-worker pattern to allow us flexibility in the future to implement different stream semantics such as windowing, CPU-memory based load balancing
