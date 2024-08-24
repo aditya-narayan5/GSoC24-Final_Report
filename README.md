@@ -1,6 +1,6 @@
 # GSoC 2024: Stream processing support for FasTensor
 
-**Mentor(s):** [Dr. Bin Dong](https://crd.lbl.gov/divisions/scidata/sdm/staff/dongbin/), [Dr. John 'Kesheng' Wu](https://www.linkedin.com/in/johnwu)  
+**Mentor(s):** [Dr. Bin Dong](https://crd.lbl.gov/divisions/scidata/sdm/staff/dongbin/), [Dr. Kesheng 'John' Wu](https://www.linkedin.com/in/johnwu)  
 **Organisation:** [UC-OSPO](https://ucsc-ospo.github.io/)
 
 ## Project Description
@@ -44,7 +44,7 @@ We aimed to achieve the same for streaming: Drop in the STREAM keyword, append a
 <img src="https://github.com/aditya-narayan5/GSoC24-Final_Report/blob/f486087ae3e6ef1f1077c885e9352c9440848724/images/example_code.png" width=50% height=100%>
 Voila! Now your previous FasTensor code supports live data streams.
 
-<img src="https://github.com/aditya-narayan5/GSoC24-Final_Report/blob/da34fab7a857b0223332d84a0aa1c8cdf0811761/images/fastensor_streaming_demo.gif" width=50% height=50%>
+<img src="https://github.com/aditya-narayan5/GSoC24-Final_Report/blob/da34fab7a857b0223332d84a0aa1c8cdf0811761/images/fastensor_streaming_demo.gif" width=70% height=70%>
 
 #### Technical tidbits:
 - Implements a manager-worker pattern to allow us flexibility in the future to implement different stream semantics such as windowing, CPU-memory based load balancing
