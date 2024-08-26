@@ -17,7 +17,7 @@ This is where FasTensor comes in: Describe your computation as a stencil, and it
 - FasTensor: https://github.com/BinDong314/FasTensor
 - My fork: https://github.com/my-name/FasTensor/tree/ftstream
 
-### Pending PRs
+### PRs
 1. [Stream processing support for FasTensor completed.](https://github.com/BinDong314/FasTensor/pull/1)
 2. [Merge ftstream into the FasTensor repo](https://github.com/BinDong314/FasTensor/pull/2)
 
